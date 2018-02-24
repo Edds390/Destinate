@@ -1,4 +1,7 @@
 module.exports = {
     "parser": "babel-eslint",
     "extends": "airbnb",
+    "rules": {
+        "no-underscore-dangle": 0,
+    }
 }
